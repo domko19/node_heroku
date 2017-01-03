@@ -3,7 +3,7 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 app.get('/', function (req, res) {
-    res.send("Hello dev, am a local route nobody knows me yet!");
+    res.send("Ahoj, toto je easy node.js :D ");
 });
 
 var server = app.listen(port, function () {
